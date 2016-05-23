@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="vpi_viewPagerIndicatorStyle" format="reference"/>
+
+    <declare-styleable name="ViewPagerIndicator">
+        <attr name="vpi_selectedColor" format="color"/>
+        <attr name="vpi_unselectedColor" format="color"/>
+        <attr name="vpi_dividerSize" format="dimension"/>
+    </declare-styleable>
+
+</resources>

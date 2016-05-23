@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        
+        <item name="vpi_viewPagerIndicatorStyle">@style/ViewPagerIndicatorStyle</item>
+    </style>
+
+    <style name="ViewPagerIndicatorStyle">
+        <item name="vpi_selectedColor">@color/colorPrimary</item>
+        <item name="vpi_unselectedColor">#0f0</item>
+        <item name="vpi_dividerSize">20dp</item>
+    </style>
+
+</resources>
