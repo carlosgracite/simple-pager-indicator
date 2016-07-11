@@ -86,6 +86,7 @@ public class ViewPagerIndicator extends LinearLayout implements ViewPager.OnPage
 
         viewPager.addOnPageChangeListener(this);
 
+        removeAllViews();
         for (int i = 0; i < viewPager.getAdapter().getCount(); i++) {
             addIndicator();
         }
