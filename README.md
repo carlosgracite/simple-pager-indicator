@@ -8,7 +8,7 @@ repositories {
 }
     
 dependencies {
-    compile 'com.github.carlosgracite:simple-pager-indicator:0.1.0'
+    compile 'com.github.carlosgracite:simple-pager-indicator:0.1.1'
 }
 ```
 
